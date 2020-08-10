@@ -1,0 +1,42 @@
+.selector{
+    float: left;
+    clear: left;
+    width: 300px;
+    margin: 15px;
+}
+.sred .ui-slider-range{
+    background: red;
+}
+.sgreen .ui-slider-range{
+    background: green;
+}
+.sblue .ui-slider-range{
+    background: blue;
+}
+.sred .ui-slider-handle{
+    border-color: red;
+}
+.sgreen .ui-slider-handle{
+    border-color: green;
+}
+.sblue .ui-slider-handle{
+    border-color: blue;
+}
+
+.workspace{
+    display: flex;
+    margin: 20px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.swatch{
+    height: 125px;
+    width: 200px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    /* color: rgb(200, 200, 200); */
+    /* background-color: rgba(200, 200, 200, 0.2); */
+}
